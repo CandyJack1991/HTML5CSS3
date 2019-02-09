@@ -1,0 +1,153 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header_page {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(68, 81, 97);
+}
+
+.product_name {
+    display: block;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+}
+
+.product_info {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 51px;
+    list-style-image: url(img/check%20icon.png)
+}
+
+.product_info li {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.product {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.product_img {
+    display: block;
+    width: 469px;
+    height: 214px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 761px;
+}
+
+.main_page {
+    width: 100%;
+}
+
+.product_info_full {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.product_txt {
+    margin-left: 50px;
+    width: 649px;
+    float: left;
+}
+
+.product_txt_h1 {
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.product_txt_p1 {
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product_txt_p2 {
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product_info_full_video {
+    display: block;
+    width: 430px;
+    height: 245px;
+    background-color: rgb(68, 81, 97);
+    margin-left: 800px;
+}
+
+.product_pluses {
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(245, 245, 245);
+}
+
+.product_pluses li {
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 35px;
+    padding-left: 0px;
+    margin-left: 50px;
+    width: 526px;
+    list-style-image: url(img/plus.PNG);
+}
+
+.pluses1 {
+    width: 587px;
+    float: left;
+    margin-top: 35px;
+    padding-left: 0px;
+    margin-left: 50px;
+    
+}
+
+.pluses2 {
+    width: 587px;
+    margin-left: 635px;
+    margin-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.product_pluses_h1 {
+    display: block;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 50px;
+}
