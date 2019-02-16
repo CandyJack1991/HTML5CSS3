@@ -214,6 +214,7 @@ figure {
     text-align: center;
     font-size: 2em;
 }
+
 details[open] .product_plus_summary:before {
     display: block;
     content: "-";
@@ -291,20 +292,21 @@ details[open] .product_plus_summary:before {
 }
 
 .reviews_txt:before {
-  content: "";
-  border: 15px solid transparent;	
-  border-right: 15px solid rgb(236, 236, 236);
+    content: "";
+    border: 15px solid transparent;
+    border-right: 15px solid rgb(236, 236, 236);
     position: absolute;
-  top: 20px;
-  left: -30px;
+    top: 20px;
+    left: -30px;
 }
+
 .product_plus_txt {
     font-family: Arial;
-color: #333333;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
 .buy_it_h1 {
@@ -312,21 +314,21 @@ text-align: left;
     display: block;
     margin: 50px 0 29px 50px;
     font-family: Arial;
-color: #445161;
-font-size: 30px;
-font-weight: 400;
-line-height: 36px;
-text-align: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
 }
 
 .block_buy_it {
-   border: 2.5px solid rgb(68, 81, 97);
+    border: 2.5px solid rgb(68, 81, 97);
     border-radius: 5px;
     background-color: rgb(68, 81, 97);
 }
 
 .buy_it {
-     width: 100%;
+    width: 100%;
 }
 
 .flex_block {
@@ -341,13 +343,12 @@ text-align: center;
     display: block;
     width: 100%;
     height: 60px;
-    
     font-family: Arial;
-color: #ffffff;
-font-size: 24px;
-font-weight: 400;
-line-height: 60px;
-text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
 }
 
 .buy_it_prace {
@@ -356,26 +357,24 @@ text-align: center;
     height: 70px;
     font-family: Arial;
     background-color: white;
-color: #445162;
-font-size: 40px;
-font-weight: 400;
-line-height: 70px;
-text-align: center;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
 }
 
 .buy_it_list {
     padding-right: 15px;
     padding-bottom: 15px;
     padding-top: 15px;
-    
     margin: 0;
     font-family: Arial;
-color: #ffffff;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-    
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
 .batton_buy {
@@ -387,11 +386,11 @@ text-align: left;
     background-color: white;
     border-radius: 5px;
     font-family: Arial;
-color: #445161;
-font-size: 18px;
-font-weight: 700;
-line-height: 40px;
-text-align: center;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -411,11 +410,11 @@ text-align: center;
     width: 100%;
     padding: 53px 0 31px 0;
     font-family: Arial;
-color: #ffffff;
-font-size: 30px;
-font-weight: 400;
-line-height: 36px;
-text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
 }
 
 .footer_form_block {
@@ -432,57 +431,55 @@ text-align: center;
     border-radius: 5px;
     outline: none;
     font-family: Arial;
-color: #445162;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
+
 .input_name:hover {
     background: rgb(236, 236, 236);
 }
-
 
 .input_email {
     padding-left: 10px;
     width: 100%;
     height: 40px;
     margin: 0 0 21px 0;
-        border-radius: 5px;
+    border-radius: 5px;
     outline: none;
     font-family: Arial;
-color: #445162;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
+
 .input_email:hover {
     background: rgb(236, 236, 236);
 }
-
 
 .comment_form {
     padding-left: 10px;
     padding-top: 10px;
     width: 100%;
     height: 170px;
-        border-radius: 5px;
+    border-radius: 5px;
     outline: none;
     font-family: Arial;
-color: #445162;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
     margin-bottom: 21px;
-    
-    
 }
+
 .comment_form:hover {
     background: rgb(236, 236, 236);
 }
-
 
 .form_button {
     display: block;
@@ -493,11 +490,11 @@ text-align: left;
     border-radius: 5px;
     background-color: white;
     font-family: Arial;
-color: #445162;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-text-align: center;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
     text-transform: uppercase;
     border: none;
 }
@@ -527,12 +524,11 @@ text-align: center;
     margin-bottom: 29px;
     background: url(../img/skypeicon.png) no-repeat;
     font-family: Arial;
-color: #ffffff;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: left;
-
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
 }
 
 .icq {
@@ -541,28 +537,28 @@ text-align: left;
     height: 26px;
     padding: 0 0 0 28px;
     margin-bottom: 29px;
-     background: url(../img/icqicon.png) no-repeat;
+    background: url(../img/icqicon.png) no-repeat;
     font-family: Arial;
-color: #ffffff;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
 }
 
 .email {
-   display: block;
+    display: block;
     width: 100%;
     height: 26px;
     padding: 0 0 0 28px;
     margin-bottom: 29px;
-     background: url(../img/emailicon.png) no-repeat;
+    background: url(../img/emailicon.png) no-repeat;
     font-family: Arial;
-color: #ffffff;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
 }
 
 .phone {
@@ -571,23 +567,23 @@ text-align: left;
     height: 26px;
     padding: 0 0 0 28px;
     margin-bottom: 37px;
-     background: url(../img/phoneicon.png) no-repeat;
+    background: url(../img/phoneicon.png) no-repeat;
     font-family: Arial;
-color: #ffffff;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
 }
 
 .footer_txt {
     display: block;
     width: 100%;
     font-family: Arial;
-color: #445162;
-font-size: 12px;
-font-weight: 400;
-letter-spacing: 0.3px;
-line-height: 24px;
-text-align: center;
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    text-align: center;
 }
